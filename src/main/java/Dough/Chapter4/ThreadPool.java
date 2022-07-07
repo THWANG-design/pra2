@@ -11,6 +11,7 @@ public class ThreadPool {
         BlockingQueue<Runnable>bq = new LinkedBlockingQueue<>(5);
         ThreadPoolExecutor pool = new ThreadPoolExecutor(3,8,2000, TimeUnit.MILLISECONDS,bq);
         System.out.println("我实在master分支上进行了修改");
+        System.out.println("C1");
         for (int i = 0; i < 10; i++) {
             pool.execute(new Runnable() {
                 @Override

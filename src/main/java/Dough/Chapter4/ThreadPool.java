@@ -14,11 +14,8 @@ public class ThreadPool {
         System.out.println("C1");
         System.out.println("C2");
 
-        System.out.println("C3");
 
 
-        System.out.println("C8");
-        System.out.println("C9");
 
         
         for (int i = 0; i < 10; i++) {

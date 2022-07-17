@@ -10,14 +10,7 @@ public class ThreadPool {
     public static void main(String[] args) {
         BlockingQueue<Runnable>bq = new LinkedBlockingQueue<>(5);
         ThreadPoolExecutor pool = new ThreadPoolExecutor(3,8,2000, TimeUnit.MILLISECONDS,bq);
-        System.out.println("我实在master分支上进行了修改");
-        System.out.println("C1");
-        System.out.println("C2");
-        System.out.println("C3");
-        System.out.println("C4");
 
-
-        System.out.println("C8");
 
 
         

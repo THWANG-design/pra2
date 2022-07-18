@@ -13,7 +13,8 @@ public class ThreadPool {
 
         System.out.println("wangtaohan111");
 
-        
+
+        System.out.println("wangtaohan222");
         for (int i = 0; i < 10; i++) {
             pool.execute(new Runnable() {
                 @Override

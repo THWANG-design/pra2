@@ -11,7 +11,7 @@ public class ThreadPool {
         BlockingQueue<Runnable>bq = new LinkedBlockingQueue<>(5);
         ThreadPoolExecutor pool = new ThreadPoolExecutor(3,8,2000, TimeUnit.MILLISECONDS,bq);
 
-
+        System.out.println("wangtaohan");
 
         
         for (int i = 0; i < 10; i++) {
